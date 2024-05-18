@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://localhost\SQLEXPRESS;databaseName=ftwdb;trustServerCertificate=true
+    username: ----
+    password: ----
+    #
+    #In Newer spring boot driverClassName is configured automatically So, here I commented
+    #
+    #driverClassName: com.microsoft.jdbc.sqlserver.SQLServerDriver
+  jpa:
+    show-sql: true
+    hibernate: org.hibernate.dialect.SQLServer2012Dialect
+
